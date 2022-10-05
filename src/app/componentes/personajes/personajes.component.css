@@ -1,0 +1,199 @@
+/*************************** Titulos y botones ******************/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bodyClass {
+  display: flex;
+}
+
+.personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-personaje {
+  width: 200px !important;
+}
+
+.img-personajes {
+  height: 300px;
+}
+
+.titulo-personaje {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 245px;
+}
+h5.card-title.text-center {
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+h5.card-title.text-center:hover {
+  width: auto;
+  white-space: unset;
+  text-overflow: unset;
+  overflow: unset;
+}
+
+.get-in-touch {
+  margin: 50px auto;
+  position: relative;
+  color: #5543ca;
+}
+
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: #5543ca;
+  background: #5543ca;
+  background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+  background: -webkit-linear-gradient(left,
+      #f4524d 0%,
+      #5543ca 100%) !important;
+  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: transparent;
+}
+
+.get-in-touch .title3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.2em;
+  line-height: 48px;
+  padding-bottom: 15px;
+  color: #5543ca;
+  background: #5543ca;
+  background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+  background: -webkit-linear-gradient(left,
+      #f4524d 0%,
+      #5543ca 100%) !important;
+  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: transparent;
+}
+
+
+.get-in-touch .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  min-width: 100%;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+
+
+/*    FORMULARIO  */
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label {
+  -webkit-transform: translateY(-24px);
+  transform: translateY(-24px);
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 762px) {
+  .cards {
+    width: 28rem !important;
+  }
+
+  .btn-personaje {
+    width: 98% !important;
+  }
+
+  .titulo-personaje {
+    width: 98%;
+  }
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.submit-btn-search {
+
+  background-color: #000;
+  background-image: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 30%;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+
+}
+
+.boton-enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

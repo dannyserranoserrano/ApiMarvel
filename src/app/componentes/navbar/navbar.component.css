@@ -1,0 +1,23 @@
+.activo {
+  font-weight: bolder;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 5px 0;
+}
+
+.classmenu {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 15px;
+  font-size: 18px;
+}
+
